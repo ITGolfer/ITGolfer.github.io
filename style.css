@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "rubik", sans-serif;
+}
+
+h1 {
+  font-family: "rubik", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+/******************************/
+/*REUSABLE SHIT*/
+/*****************************/
+.nav {
+  display: flex;
+  max-height: 15rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #081831;
+}
+
+.nav div {
+  background-color: #5637b0;
+  color: #fff;
+  width: 80px;
+  padding: 12px 24px;
+  border-radius: 9px;
+  margin: 12px 24px;
+}
+
+.nav img {
+  align-content: flex-start;
+}
+
+
+/******************************/
+/*HEADER*/
+/*****************************/
+.companies-logo {
+  height: 160px;
+}
+
+
+
+
+/******************************/
+/*HERO SECTION*/
+/*****************************/
+
+.hero-section {
+  display: flex;
+
+  background-color: #081831;
+  color: #fff;
+
+}
+
+/******************************/
+/*TEMPORARY*/
+/*****************************/
+.enten-reich {
+  margin: 0 auto;
+}
+
+.hero-section img {
+  align-items: center;
+}
